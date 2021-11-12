@@ -203,7 +203,7 @@ body {
 .container img {
         float: left; /* обтекание слева */
         margin-right: 30px; /* пространство между аватаркой и абзацем */
-        border-radius: 30%; /* скругляет аватарку */
+        border-radius: 13%; /* скругляет аватарку */
         width: 110px;
 }
 
@@ -213,15 +213,16 @@ body {
   }
 
 @media (max-width: 450px) {
+
     .container {
         text-align: center;
     }
 
-        .container img {
+    .container img {
             margin: auto;
             float: none;
             display: block;
-        }
+    }
 }
 
 .skyrim {
