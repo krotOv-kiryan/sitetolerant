@@ -25,16 +25,11 @@
                         aria-expanded="false" 
                         aria-label="Toggle navigation">
 
-                    <span class="navbar-toggler-icon">
-                    </span>
-
-
+                    <span class="navbar-toggler-icon"> </span>
                 </button>
 
                 <div class="navbar-collapse collapse d-sm-inline-flex flex-sm-row-reverse">
-
                     <ul class="navbar-nav flex-grow-1">
-
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Дом</a>
                         </li>
@@ -42,14 +37,13 @@
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Вопросы?</a>
                         </li>
-
                     </ul>
                 </div>
+
             </div>
         </nav>
 
     </header>
-
 
     <div class="container">
         <main role="main" class="pb-3">
@@ -57,27 +51,21 @@
         </main>
     </div>
 
-
-
     <footer class="border-top footer text-muted">
         <div class="container">
-            &copy; 2021 - Создавали для потомков - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+            &copy; 2021 - Создавали для потомков  <a asp-area="" asp-controller="Home" asp-action="Privacy"></a>
                  <div class="footer1">
                      <nav class="footer-menu">
-                           @*<a href="/about.html"></a>
-                           <a href="/contacts.html">Мой вк</a>
-                           <a href="/advert">Реклама</a>
-                           <a href="/vacancy.html">Вакансии</a>*@
-                      </nav>
+                        
+                     </nav>
                  </div>
         </div>
     </footer>
 
-
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
-    s
+    
     @RenderSection("Scripts", required: false)
 
 </body>

@@ -70,14 +70,12 @@ body {
   line-height: 60px; /* Vertically center the text there */
 }
 
-
-
 * {
     box-sizing: border-box;
 }
 
 body {
-    background: #f69a73;
+    background: #66CDAA;
 }
 
 .decor {
@@ -107,14 +105,14 @@ body {
     right: -30px;
 }
 
-    .form-left-decoration:before, .form-left-decoration:after, .form-right-decoration:before, .form-right-decoration:after {
-        content: "";
-        position: absolute;
-        width: 50px;
-        height: 20px;
-        border-radius: 30px;
-        background: white;
-    }
+.form-left-decoration:before, .form-left-decoration:after, .form-right-decoration:before, .form-right-decoration:after {
+    content: "";
+    position: absolute;
+    width: 50px;
+    height: 20px;
+    border-radius: 30px;
+    background: white;
+}
 
 .form-left-decoration:before {
     top: -20px;
@@ -149,37 +147,37 @@ body {
     padding: 50px;
 }
 
-    .form-inner input, .form-inner textarea {
-        display: block;
-        width: 100%;
-        padding: 0 20px;
-        margin-bottom: 10px;
-        background: #E9EFF6;
-        line-height: 40px;
-        border-width: 0;
-        border-radius: 20px;
-        font-family: 'Roboto', sans-serif;
-    }
+.form-inner input, .form-inner textarea {
+    display: block;
+    width: 100%;
+    padding: 0 20px;
+    margin-bottom: 10px;
+    background: #E9EFF6; /* это ваш телефон и тд*/
+    line-height: 40px;
+    border-width: 0;
+    border-radius: 20px;
+    font-family: 'Roboto', sans-serif;
+}
 
-        .form-inner input[type="submit"] {
-            margin-top: 30px;
-            background: #f69a73;
-            border-bottom: 4px solid #d87d56;
-            color: white;
-            font-size: 14px;
-        }
+.form-inner input[type="submit"] {
+    margin-top: 30px; /*внутренний ввод формы*/
+    background: #f69a73;
+    border-bottom: 4px solid #d87d56;
+    color: white;
+    font-size: 14px;
+}
 
-    .form-inner textarea {
-        resize: none;
-    }
+.form-inner textarea {
+   resize: none;
+}
 
-    .form-inner h3 {
-        margin-top: 0;
-        font-family: 'Roboto', sans-serif;
-        font-weight: 500;
-        font-size: 24px;
-        color: #707981;
-    }
+.form-inner h3 {
+   margin-top: 0;
+   font-family: 'Roboto', sans-serif;
+   font-weight: 500;
+   font-size: 22px;
+   color: #707981; /*цвет слов жжелаем приятного общения*/
+}
 
 
 .container {
@@ -193,8 +191,8 @@ body {
 
 .otzivi {
     width: 75%;
-    border: 4px solid #ccc;
-    background-color: #1b6ec2;
+    border: 4px solid #5b92e5;
+    background-color: #87CEFA;
     border-radius: 7px; /* скругление углов блока */
     padding: 16px; /* внутренние поля */
     margin: 26px auto; /* внешние отступы */
@@ -224,6 +222,6 @@ body {
             display: block;
     }
 }
-
-.skyrim {
+.comment {
+    background: #F8F8FF;
 }
